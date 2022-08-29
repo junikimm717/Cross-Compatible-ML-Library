@@ -1,12 +1,14 @@
 import java.util.ArrayList;
 
 public class experimentation {
-    public static void main(String[] args) {
-        ArrayList<Double> test = new ArrayList<Double>();
-        test.add(4.5);
-        test.add(4.5);
-        test.add(4.3);
+    public static ArrayList<Integer> test() {
+        ArrayList<Integer> x = new ArrayList<Integer>();
+        x.add(42);
+        x.add(69);
 
-        System.out.printf("Can you format arraylists? yeet: %s", test.toString());
+        return x;
+    }
+    public static void main(String[] args) {
+        System.out.println(test());
     }
 }

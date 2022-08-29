@@ -281,3 +281,4 @@ class Model:
             {'layer': layer[0].json(), 'activation': layer[1].json()} for layer in self.layers
         ]
         return json.dumps(data)
+        
