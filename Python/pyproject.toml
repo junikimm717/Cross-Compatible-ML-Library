@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "cross-compatible-ml-library-python"
+version = "0.1.0"
+description = "Tensorflow-esque pseudo library for machine learning in Python, Java, and C++."
+authors = []
+packages = [
+  { include = "ccml" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.21.5"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
